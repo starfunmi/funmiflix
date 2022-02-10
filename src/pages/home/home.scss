@@ -1,0 +1,48 @@
+.banner{
+    display: flex;
+    width: 100%;
+    // background-color: #fff;
+    min-height: 60vh;
+    color: #fff;
+
+    .banner-box{
+        margin: auto;
+        margin-top: 10vh;
+        flex: 1;
+        // background-color: #fff;
+        background: url("../../assets/background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 60vh;
+        // filter: blur(1px);
+        width: 100%;
+        align-items: center;
+
+        h3{
+            font-size: 37px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .btn-text{
+            font-size: 28px;
+            font-weight: 500;
+            font-family: sans-serif;
+
+            background: white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            cursor: pointer;
+
+            &:hover{
+                background: rgb(218, 22, 22);
+                -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            }
+            
+        }
+       
+
+    }
+
+    
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+
+    .post-view{
+        width: 80%;
+        margin: auto;
+        margin-top: 10vh;
+        display: flex;
+        min-height: 40vh;
+
+        .post{
+            display: flex;
+            color: #fff;
+
+            h3{
+                font-size: 36px;
+                font-family: sans-serif;
+                font-weight: 900;
+                color: rgb(218, 22, 22);
+            }
+
+            .overview{
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            button{
+                background-color: rgb(218, 22, 22);
+                border: none;
+                color: #fff;
+                width: 20vh;
+                height: 5vh;
+                font-size: 16px;
+                font-family: sans-serif;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #fff;
+                    color: rgb(218, 22, 22);
+                }
+            }
+
+
+            .content-text{
+                flex: 1;
+            }
+
+            .content-image{
+                flex: 1;
+
+            }
+        }
+    }
+}
